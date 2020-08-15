@@ -98,7 +98,6 @@ SharedPreferences sharedPreferences;
                 String pass = password.getText().toString().trim();
 
 
-
                 if (TextUtils.isEmpty(mail)) {
                     email.setError("Email is required");
                     return;
